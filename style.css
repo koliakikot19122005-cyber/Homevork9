@@ -1,0 +1,177 @@
+.mainblock {box-sizing: border-box;max-width: 1920px;
+height: 700px;
+background-color: #EEEFF1;}
+
+
+.navigation {box-sizing: border-box;
+    display: flex;
+gap: 20px;
+width: 565px;
+}
+
+.navigation a{
+    font-size: 16px;
+    clear: both;
+    text-decoration: none;
+    margin-top: 80px;
+    
+}
+
+.margin {margin-left: 400px;
+font-family: Roboto;}
+
+.maintext {margin-top: 257px;
+    font-size: 48px;
+
+}
+
+.title {
+    font-size: 16px;
+width: 540px;
+height: 67px;}
+
+.button {box-sizing: border-box;
+    background-color: #34547A;
+width: 225px;
+height: 65px;
+text-align: center;
+padding: 24px;
+}
+
+button { border: none;
+    outline: none;
+    background: none;
+color: #FFFFFF;}
+
+
+.boardaboutme {box-sizing: border-box;
+    width: 1920;
+    height: 300px;
+    background-color: #ececec ;
+}
+
+.textet {display: flex;
+    justify-content: center;
+font-size: 32px;
+}
+
+
+
+.textpagetwo {
+    font-size: 16px;
+width: 540px;
+height: 67px;
+}
+
+
+.position {display: flex;
+justify-content: center;
+}
+
+.backgroundblu{
+    height: 250px;
+background-color: #34547A;
+}
+
+
+.maincon {display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 100px;
+    gap: 45px;}
+
+    .png {
+         display: flex;
+         align-items: center;
+         gap: 3px;
+        }
+
+        .png img{
+            width: 50px;
+        height: 50px;
+    }
+
+.pngtext {display: flex;
+flex-direction: column;
+justify-content: center;}
+
+.pngtext p {
+    margin: 0;
+    color: #FFFFFF;}
+
+
+    .lastimgcon {height: 1004px;
+    background-color: #EEEFF1;
+    text-align: center;
+display: flex;
+justify-content: center;
+}
+
+   .lastimgcon h2{
+    margin-top: 100px;
+    font-size: 32px; 
+    
+} 
+
+.HowIWork {display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+
+
+
+
+    .smoll p{margin: 0 auto;
+        height: 67px;
+        font-size: 16px;
+        width: 540px;
+    height: 67px;
+        
+    }
+
+.backgraund {
+
+
+width: 1110px;
+height: 600px;
+background-image: url(/7cecf9b2aa89d7246db40c5549f821b838c3d622.jpg);
+ background-repeat: no-repeat;        
+    background-size: contain; 
+   
+}
+
+
+.play {width: 100px;
+height: 100px;
+margin-top: 200px;}
+
+
+
+
+
+
+.end {
+    display: flex;
+    flex-direction: column;   
+    justify-content: center; 
+    height: 151px;
+    background-color: #34547A;
+}
+
+.end h3 {
+    margin: 0 0 20px 0; 
+    font-size: 19px;
+    margin-left: 409px ;
+    
+}
+
+.end p {
+    margin: 0; 
+    font-size: 13px;
+      margin-left: 409px ;
+}
+
+
+
