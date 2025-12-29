@@ -1,0 +1,169 @@
+@use 'mixins' as *;
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+
+.mainblock {@include box-sizing;
+  width: 1920px;
+height: 700px;
+width: 100%;
+height: 100%;
+background-color: $primary-color;
+}
+
+
+.navigation {@include box-sizing;
+    display: flex;
+gap: 20px;
+max-width: 565px;
+}
+
+.navigation a{
+    font-size: 16px;
+    clear: both;
+    text-decoration: none;
+    margin-top: 80px;
+    
+}
+
+.margin {
+  margin-left: 20.841vw;
+@include $font-family;
+}
+
+.maintext {margin-top: 257px;
+    font-size: 48px;
+
+}
+
+.title {
+    font-size: 16px;
+max-width: 540px;
+width: 100%;
+max-height: 67px;
+height: 100%;}
+
+button { @include button-style;}
+
+
+.button { @include button;}
+    
+
+
+.boardaboutme {@include box-sizing;;
+height: 300px;
+    background-color: $primary-color ;
+}
+
+.textet {@include flex-center;
+@include font-size(32px);}
+
+
+.textpagetwo {
+    @include font-size(16px);
+width: 540px;
+height: 67px;
+}
+
+
+.position {@include flex-center;
+}
+
+.backgroundblu{
+    max-height: 250px;
+background-color: $secondary-color;
+}
+
+
+.maincon {display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ padding: 100px;
+    gap: 45px;}
+
+    .png {
+         display: flex;
+         align-items: center;
+         gap: 3px;
+        }
+
+        .png img{
+            max-width: 50px;
+        max-height: 50px;
+    }
+
+.pngtext {@include flex-center;}
+
+.pngtext p {
+    margin: 0;
+    color: #FFFFFF;}
+
+
+    .lastimgcon {height: 1004px;
+      height: 100%;
+    background-color: #EEEFF1;
+    @include flex-center;
+}
+
+   .lastimgcon h2{
+    margin-top: 100px;
+  @include font-size(32px);
+} 
+
+.HowIWork {@include flex-center;
+   
+}
+
+
+
+
+    .smoll p{margin: 0 auto;
+        height: 67px;
+        @include font-size(16px);
+        width: 540px;
+      
+        
+    }
+
+.backgraund {
+width: 60vw;
+height: 40vw;
+background-image: url(/7cecf9b2aa89d7246db40c5549f821b838c3d622.jpg);
+ background-repeat: no-repeat;        
+    background-size: contain; 
+ 
+
+   
+}
+
+
+.play {width: 100px;
+height: 100px;
+margin-top: 10vw;}
+
+
+
+
+
+
+.end {
+    @include flex-center;
+    height: 151px;
+    background-color: $secondary-color;
+}
+
+.end h3 {
+    margin: 0 0 20px 0; 
+    @include font-size(19px);
+    margin-left: 409px ;
+}
+
+.end p {
+    margin: 0; 
+     @include font-size(13px);
+      margin-left: 409px ;
+}
+
