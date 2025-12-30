@@ -30,6 +30,7 @@ font-family: Roboto;}
 
 .maintext {margin-top: 162px;
     font-size: 48px;
+font-family: Roboto;
 
 }
 
@@ -335,8 +336,8 @@ max-width: 50%;}
 
 @media (max-width:480px) {
 .png img ,.pngtext p{display: flex;
-    max-width: 4vw;
-    max-height: 4vw ;
+    max-width: 30px;
+    max-height: 30px;
     flex-direction: column;
     margin: 0 auto;
 }
@@ -371,7 +372,7 @@ margin-top: 13vw;
 
 
 @media (max-width:480px) {
-.backgraund { width: 80vw;
+.backgraund { width: 90vw;
 height: 80vw;
 margin-top: 20%;
 }
